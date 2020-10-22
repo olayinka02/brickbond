@@ -1,0 +1,171 @@
+body{
+ margin: 0;
+ padding:0;
+ box-sizing: border-box;
+}
+div.landingpage{
+    height: 125vh;
+    width:100%;
+    background-image: url(/users/USER/Documents/brickbond/image/bg1.svg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:cover;
+    position: absolute;
+
+}
+li{
+    margin-left: 2rem;
+}
+.title{
+    color:white;
+    width:15rem;
+    animation-name:fade;
+    animation-duration:3s;
+}
+.num{
+    color: white;
+    animation-name:fade;
+    animation-duration:3s;
+}
+@keyframes fade{
+    10%{
+        opacity:0;
+        margin-top:0rem;
+    }
+    20%{
+        opacity:0;
+        margin-top:1.8rem;
+       
+    }
+    30%{
+        opacity:0.1;
+        margin-top:4.3rem;
+       
+    }
+    40%{
+        opacity:0.2;
+        margin-top:1.9rem;
+       
+    }
+    50%{
+        opacity:0.2;
+        margin-top:3.4rem;
+       
+    }
+    60%{
+        opacity:0.6;
+        margin-top:4rem;
+       
+    }
+    70%{
+        opacity:0.8;
+        margin-top:4.1rem;
+       
+    }
+    80%{
+        opacity:1.8;
+        margin-top:4.3rem;
+       
+    }
+    90%{
+        opacity:0.9;
+        margin-top:4.4rem;
+        
+    }100%{
+        opacity:1;
+        margin-top:4.5rem;
+       
+    }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+li.wellcome{
+    margin-left: 8rem;
+    font-style: italic;
+    font-size: medium;
+    color:white;
+}
+.carousel-item img{
+    width: 3rem;
+    height: 10rem;
+}
+div.video{
+    background-color: white;
+    width:100%;
+    height: auto;
+    margin-top: 20rem;
+    
+}
+div.pick{
+    width:100%;
+    height:19rem;
+    background-color:orange;
+}
+div.management{
+    width:95.6%;
+    height:68vh;
+   
+    background-image: url(/users/USER/Documents/brickbond/image/bg1.svg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:cover;
+    position: absolute;
+
+}
+div.comment{
+    width:100%;
+    margin-top:50px;
+    box-sizing: unset;
+    padding: 0px;
+    height:1000px;
+    background-color: white;
+   
+}
+
+div.Design{
+  width:100%;
+  height:1500px;
+  background-color: white;  
+}
+.rec{
+    background-color: orange;
+    height:3rem;
+    width:0.4rem;
+    margin-top: 4rem;
+    border-radius: 2rem;
+
+}
+input.form-control{
+    border-radius: 4rem;
+}
+textarea{
+    border-radius: 4rem;
+
+}
+
+
+
+
+@media only screen and (max-width:480px){
+    div.management{
+        width:95.6%;
+        height:5vh;
+       
+        background-image: url(/users/USER/Documents/brickbond/image/bg1.svg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:cover;
+        position: absolute;
+    
+    }
+   
+}
