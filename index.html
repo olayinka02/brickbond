@@ -15,7 +15,7 @@
 
 
 
-    <style>@import url("/brickbond css/index.css");
+    <style>@import url("/brickbond/brickbond css/index.css");
     
     </style>
 
@@ -26,33 +26,33 @@
 <body>
   <div class="container-fluid landingpage">
    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position:relative;border-radius:4rem;width:99.6%;margin-top:0.5rem;box-shadow:2px 2px black;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position:relative;border-radius:1rem;width:99.6%;margin-top:0.5rem;box-shadow:2px 2px black;">
       <a class="navbar-brand" href="#">
-        <img src="image/emoji.svg" width="32" height="33" class="d-inline-block align-top" alt="" loading="lazy">
+        <img src="image/emoji.svg"  class="d-inline-block align-top" alt="" loading="lazy">
           ricksbond..
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav" style="margin-left: 16rem;">
+        <ul class="navbar-nav barx">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="/brickbond/about.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="/brickbond/offer.html">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link" href="/brickbond/gallery.html">Gallery</a>
           </li>
           <li class="nav-item wellcome">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">wellcome!!..Check this Out</a>
           </li>
-          <li class="nav-item">
-            <button type="button" class="btn btn-secondary" style="background-color:orange;border-radius:1rem;color:white;box-shadow: 2px 2px black;font-weight:500;">Brochure..</button>
+          <li class="nav-item"><a href="#down">
+            <button type="button" class="btn btn-secondary" style="background-color:orange;border-radius:1rem;color:white;box-shadow: 2px 2px black;font-weight:500;">Brochure..</button></a>
           </li>
         </ul>
       </div>
@@ -64,12 +64,12 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row">
-              <div class="col-8">
-                 <img src="image/image1.png" style="width:38rem;height:40rem;margin-top:-11rem;" alt="img" />
+              <div class="col-sm">
+                 <img src="image/image1.png" class="build" alt="img" />
               </div>
-              <div class="col-4"><br/><br/>
+              <div class="col-sm bricktext" ><br/><br/>
                 <h1 class="title">Duplex.</h1><hr/>
-                <p style="width:19rem;">The brickbond founder, Umar comes with over 15 years varied
+                <p style="color: white;" >The brickbond founder, Umar comes with over 15 years varied
                   experience in Real Estate Development, Investment, and Financial 
                   Services. An astute leader whose vision is achieving brickbonds 
                   strategic business goals.
@@ -81,12 +81,12 @@
 
           <div class="carousel-item">
             <div class="row">
-              <div class="col-8">
-                 <img src="image/image2.png" style="width:38rem;height:40rem;margin-top:-9rem;" alt="img" />
+              <div class="col-sm">
+                 <img src="image/image2.png" class="build"  alt="img" />
               </div>
-              <div class="col-4"><br/><br/>
+              <div class="col-sm bricktext"><br/><br/>
                 <h1  class="title">Hotel Management.</h1><hr/>
-                <p style="width:19rem;">The brickbond founder, Umar comes with over 15 years varied
+                <p style="color: white;">The brickbond founder, Umar comes with over 15 years varied
                   experience in Real Estate Development, Investment, and Financial 
                   Services. An astute leader whose vision is achieving brickbonds 
                   strategic business goals.
@@ -98,12 +98,12 @@
 
             <div class="carousel-item">
               <div class="row">
-                <div class="col-8">
-                   <img src="image/image3.png" style="width:38rem;height:40rem;margin-top:-11rem;" alt="img" />
+                <div class="col-sm">
+                   <img src="image/image3.png" class="build"  alt="img" />
                 </div>
-                <div class="col-4"><br/><br/>
+                <div class="col-sm bricktext"><br/><br/>
                   <h1  class="title">Duplex With Extension.</h1><hr/>
-                  <p style="width:19rem;">The brickbond founder, Umar comes with over 15 years varied
+                  <p style="color: white;" >The brickbond founder, Umar comes with over 15 years varied
                     experience in Real Estate Development, Investment, and Financial 
                     Services. An astute leader whose vision is achieving brickbonds 
                     strategic business goals.
@@ -118,25 +118,33 @@
 
     <div class="container-fluid video">
       <div class="row">
-        <div class="col-md-8 col-12">
-          <iframe src="https://player.vimeo.com/video/11204942?title=0&byline=0&portrait=0" width="600" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <div class="col-sm frame">
+          <iframe src="https://player.vimeo.com/video/11204942?title=0&byline=0&portrait=0" width="630" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
         </div>
-        <div class="col-md-4" >
+        <div class="col-sm offer" >
           
-          <h3 style="color:orange">We Offer More...</h3><hr/>
+          <h3 class="weoffer">We Offer More...</h3><hr/>
           <p>With brickbonds, you get all the best features you expect from the very best anywhere in the world. And more…</p>
           <p>Once, we built structures entirely from the most durable substances we knew: granite block, for instance. The results are still around today to admire, but we don’t often emulate them, because quarrying, cutting, transporting, and fitting stone require a patience we no longer possess</p>
           <p>If you build it well, a satisfaction comes An honor to say I built that with fidelity, Purpose, value and integrity</p>
-          <hr/><button type="button" class="btn btn-secondary" style="background-color:orange;border-radius:1rem;color:black;box-shadow: 1px 1px black;font-weight:500;float: right;">Read More</button>        
+          <hr/><a href="/brickbond/gallery.html#offer"><button type="button" 
+          class="btn btn-secondary btn" >Read More</button></a>
+          
+         
+          
+            
+          
+          
         </div>
       </div><br/><br/><br/><br/><br/><br/><br/>
 
       <div class="row">
-        <div class="col-md-5"> <p style="margin-left: 9rem;">At brickbonds, we’re building much more than just homes. We’re building trust. We believe trust is the foundation of every successful relationship. Building mutual trust with our partners is at the core of everything we do. We walk everyday in their shoes, on their roads, to ensure they constantly feel how they deserve to feel. Comfortable.</p></div>
-        <div class="col-md-5 offset-md-2">
-          <h3 style="color:orange;">We Are Brickbond..</h3>
-          <button type="button" class="btn btn-secondary" style="background-color:orange;border-radius:1rem;color:black;box-shadow: 1px 1px black;font-weight:500;">Read More</button>        
+        <div class="col-sm offerx"> <p>At brickbonds, we’re building much more than just homes. We’re building trust. We believe trust is the foundation of every successful relationship. Building mutual trust with our partners is at the core of everything we do. We walk everyday in their shoes, on their roads, to ensure they constantly feel how they deserve to feel. Comfortable.</p></div>
+        <div class="col-sm">
+          <h3 class="weofferx">We Are Brickbond..</h3>
+          <a href="/brickbond/offer.html#weofferxx">
+          <button type="button" class="btn btn-secondary btnx">Read More</button></a>        
         </div>  
       </div><br/><br/><br/><br/><br/><br/><br/>
 
@@ -145,12 +153,12 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row">
-              <div class="col-md-5">
-                <iframe src="https://giphy.com/embed/VCYhDRw4QXXzmmzhIZ" style="margin-left: 9rem;" width="290" height="290" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>
+              <div class="col-sm">
+                <iframe src="https://giphy.com/embed/VCYhDRw4QXXzmmzhIZ"  width="290" height="290" frameBorder="0" class="giphy-embed bed" allowFullScreen></iframe><p>
 
                 </div>
-              <div class="col-md-5 offset-md-2"><br/><br/>
-                <h3 style="color:white;">Familiar Faces</h3><br/><br/>
+              <div class="col-sm bricktext"><br/><br/>
+                <h3 class="topic">Familiar Faces</h3><br/><br/>
                 <p style="color:white;">At brickbonds, we’re building much more than just homes. We’re building trust. We believe trust is the foundation of every successful relationship. Building mutual trust with our partners is at the core of everything we do. We walk everyday in their shoes, on their roads, to ensure they constantly feel how they deserve to feel. Comfortable.</p>
               </div>  
             </div> 
@@ -158,11 +166,23 @@
 
           <div class="carousel-item">
             <div class="row">
-              <div class="col-md-5">
-                <iframe src="https://giphy.com/embed/V6UuMmIDnkn876lw54" style="margin-left: 9rem;" width="290" height="290" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+              <div class="col-sm">
+                <iframe src="https://giphy.com/embed/V6UuMmIDnkn876lw54" width="290" height="290" frameBorder="0" class="giphy-embed bed" allowFullScreen></iframe>
                 </div>
-              <div class="col-md-5 offset-md-2"><br/><br/>
-                <h3 style="color:white;">Strongly Connected</h3><br/><br/>
+              <div class="col-sm bricktext"><br/><br/>
+                <h3 class="topic">Strongly Connected</h3><br/><br/>
+                <p style="color:white;">At brickbonds, we’re building much more than just homes. We’re building trust. We believe trust is the foundation of every successful relationship. Building mutual trust with our partners is at the core of everything we do. We walk everyday in their shoes, on their roads, to ensure they constantly feel how they deserve to feel. Comfortable.</p>
+              </div>  
+            </div> 
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm">
+                <iframe src="https://giphy.com/embed/V6UuMmIDnkn876lw54"  width="290" height="290" frameBorder="0" class="giphy-embed bed" allowFullScreen></iframe>
+                </div>
+              <div class="col-sm bricktext"><br/><br/>
+                <h3 class="topic">Strongly Connected</h3><br/><br/>
                 <p style="color:white;">At brickbonds, we’re building much more than just homes. We’re building trust. We believe trust is the foundation of every successful relationship. Building mutual trust with our partners is at the core of everything we do. We walk everyday in their shoes, on their roads, to ensure they constantly feel how they deserve to feel. Comfortable.</p>
               </div>  
             </div> 
@@ -171,11 +191,11 @@
 
           <div class="carousel-item">
             <div class="row">
-              <div class="col-md-5">
-                <iframe src="https://giphy.com/embed/gMol9ftID0nhRPdOzb" style="margin-left: 9rem;" width="290" height="290" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+              <div class="col-sm">
+                <iframe src="https://giphy.com/embed/gMol9ftID0nhRPdOzb"  width="290" height="290" frameBorder="0" class="giphy-embed bed" allowFullScreen></iframe>
                 </div>
-              <div class="col-md-5 offset-md-2"><br/><br/>
-                <h3 style="color:white;">The Light</h3><br/><br/>
+              <div class="col-sm bricktext"><br/><br/>
+                <h3 class="topic">The Light</h3><br/><br/>
                 <p style="color:white;">At brickbonds, we’re building much more than just homes. We’re building trust. We believe trust is the foundation of every successful relationship. Building mutual trust with our partners is at the core of everything we do. We walk everyday in their shoes, on their roads, to ensure they constantly feel how they deserve to feel. Comfortable.</p>
               </div>  
             </div>
@@ -183,11 +203,11 @@
 
           <div class="carousel-item">
             <div class="row">
-              <div class="col-md-5">
-                <iframe src="https://giphy.com/embed/MZmOCv7Rd6Edar7aeA" style="margin-left: 9rem;" width="290" height="290" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+              <div class="col-sm">
+                <iframe src="https://giphy.com/embed/MZmOCv7Rd6Edar7aeA"  width="290" height="290" frameBorder="0" class="giphy-embed bed" allowFullScreen></iframe>
                 </div>
-              <div class="col-md-5 offset-md-2"><br/><br/>
-                <h3 style="color:white;">Get In Touch</h3><br/><br/>
+              <div class="col-sm bricktext"><br/><br/>
+                <h3 class="topic">Get In Touch</h3><br/><br/>
                 <p style="color:white;">At brickbonds, we’re building much more than just homes. We’re building trust. We believe trust is the foundation of every successful relationship. Building mutual trust with our partners is at the core of everything we do. We walk everyday in their shoes, on their roads, to ensure they constantly feel how they deserve to feel. Comfortable.</p>
               </div>  
             </div> 
@@ -195,11 +215,11 @@
 
           <div class="carousel-item">
             <div class="row">
-              <div class="col-md-5">
-                <iframe src="https://giphy.com/embed/BnGYceTfei9wwcnHls" style="margin-left: 9rem;" width="290" height="290" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+              <div class="col-sm">
+                <iframe src="https://giphy.com/embed/BnGYceTfei9wwcnHls" width="290" height="290" frameBorder="0" class="giphy-embed bed" allowFullScreen></iframe>
                 </div>
-              <div class="col-md-5 offset-md-2"><br/><br/>
-                <h3 style="color:white;">Eye In The Sky</h3><br/><br/>
+              <div class="col-sm bricktext"><br/><br/>
+                <h3 class="topic">Eye In The Sky</h3><br/><br/>
                 <p style="color:white;">At brickbonds, we’re building much more than just homes. We’re building trust. We believe trust is the foundation of every successful relationship. Building mutual trust with our partners is at the core of everything we do. We walk everyday in their shoes, on their roads, to ensure they constantly feel how they deserve to feel. Comfortable.</p>
               </div>  
             </div> 
@@ -246,7 +266,9 @@
      <center><br/><br/><br/><br/>
        <h3 style="color:white;">Comfort is a choice</h3>
        <p style="color:white;word-spacing:0.2rem;">we offer 5 of these
-        <button type="button" class="btn btn-secondary" style="background-color:orange;border-radius:1rem;color:black;box-shadow: 1px 1px black;font-weight:500;">Pick One</button>        
+         <a href="/brickbond/gallery.html#gab">
+        <button type="button" class=" btn-secondary" 
+        style="background-color:orange;border-radius:1rem;color:black;box-shadow: 1px 1px black;font-weight:500;">Pick One</button><a        
        </p>
      </center>
   </div><br/><br/><br/><br/>
@@ -258,7 +280,7 @@
         <div class="carousel-item active">
           <center>
             <h1>What Other Are Saying.</h1><hr/><br/>
-            <p style="width: 22rem;">SO far so good, services really fantastic and the area is fantastic. The quality of work is fantastic and I look forward to a more beneficial relationship. brickbonds equals fantastic for me.
+            <p class="people">SO far so good, services really fantastic and the area is fantastic. The quality of work is fantastic and I look forward to a more beneficial relationship. brickbonds equals fantastic for me.
             </p>
             <h2>Mrs Okeke.</h2>
           </center>
@@ -268,7 +290,7 @@
         <div class="carousel-item">
           <center>
             <h1>What Other Are Saying.</h1><hr/><br/>
-            <p style="width: 22rem;"> Not bad I visited your site and was a bit confused about the villa and detached spacing but thanks to the officer in charge I got clarification. I am actually an ambassador for brickbonds because I believe in the brand.
+            <p class="people"> Not bad I visited your site and was a bit confused about the villa and detached spacing but thanks to the officer in charge I got clarification. I am actually an ambassador for brickbonds because I believe in the brand.
             </p>
             <h2>Mr Yinka.</h2>
           </center>  
@@ -278,7 +300,7 @@
         <div class="carousel-item">
           <center>
             <h1>What Other Are Saying.</h1><hr/><br/>
-            <p style="width: 22rem;"> Brickbonds Synergy Limited.....Great are you.
+            <p class="people"> Brickbonds Synergy Limited.....Great are you.
             </p>
             <h2>Bro Hammed.</h2>
           </center>  
@@ -288,7 +310,7 @@
         <div class="carousel-item">
           <center>
             <h1>What Other Are Saying.</h1><hr/><br/>
-            <p style="width: 22rem;"> Brickbonds are doing well, It a privillege to partner with them..their work are great and their price is owk.i love Brickbonds.
+            <p class="people"> Brickbonds are doing well, It a privillege to partner with them..their work are great and their price is owk.i love Brickbonds.
             </p>
             <h2>Miss Bolu.</h2>
           </center>  
@@ -298,7 +320,7 @@
         <div class="carousel-item">
           <center>
             <h1>What Other Are Saying.</h1><hr/><br/>
-            <p style="width: 22rem;"> Their work are great and was a bit confused about the villa and detached spacing but thanks to the officer in charge I got clarification. I am actually an ambassador for Brickbond because I believe in.
+            <p class="people"> Their work are great and was a bit confused about the villa and detached spacing but thanks to the officer in charge I got clarification. I am actually an ambassador for Brickbond because I believe in.
             </p>
             <h2>Mr & Mrs Yusuf.</h2>
           </center>  
@@ -310,35 +332,47 @@
 
    <div class="container-fluid management">
       <div class="row">
-        <div class="col-6">
-           <img src="image/yinkaa.png" style="margin-top:-12rem;" alt="img" />
+        <div class="col-sm">
+           <img src="image/yinkaa.png"class="topmanage" alt="img" />
         </div>
-        <div class="col-6"><br/><br/>
-          <h1 style="color:white;width:12rem;">Top Management</h1><hr/>
-          <p style="width:25rem;">The brickbond founder, Umar comes with over 15 years varied
+        <div class="col-sm"><br/><br/>
+          <h1 class="manage">Top Management</h1><hr/>
+          <p class="managetext">The brickbond founder, Umar comes with over 15 years varied
             experience in Real Estate Development, Investment, and Financial 
             Services. An astute leader whose vision is achieving brickbond’s 
             strategic business goals.
           </p><hr/>
-          <h2>Akinseye Yinka </h2>
+          <h2 class="maname">Akinseye Yinka </h2>
         </div>
       </div>
-   </div><br/><br/><br/><br/><br/><br/>
+   </div>
    
-  </div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br><br/><br/><br/><br/><br><br/><br/>
-  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br><br/><br/><br/><br/><br><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-  <div class="container comment">
+   <br/>
+   
+  </div>
+  
+  <center>
+    <iframe src="https://giphy.com/embed/VCYhDRw4QXXzmmzhIZ" style="margin-bottom:5rem;" width="290" height="290" frameBorder="0" class="giphy-embed bed" allowFullScreen></iframe>
+
+   </center>
+   
+ <br/>
+  <div class="container comment" id="down">
+    <center>
+      <iframe src="/brickbond/image/canva.gif" frameBorder="0" class="giphy-embed bedx" allowFullScreen></iframe>
+  
+     </center>
     <div class="rec"></div><h1 style="margin-left:0.5rem;margin-top:-3rem;">Book Consultant.<hr/></h1>
     <h6 style="color: orange;margin-top:-1rem;">get in touch..</h6><br/><br/><br/>
-    <form>
+    <form id="form" name="brickbonds" action="https://formspree.io/f/mleowbww" method="POST">
     <fieldset>
       <legend  style="color: orange; font-size:large;font-style: italic;">fill in the boxes</legend>
-    <input class="form-control" type="text" placeholder="Your Name.."><br/>
-    <input class="form-control" type="text" placeholder="Your Email.."><br/>
-    <input class="form-control" type="text" placeholder="080.."><br/>
+    <input class="form-control" type="text" name="name" placeholder="Your Name.."><br/>
+    <input class="form-control" type="text" name="email" placeholder="Your Email.."><br/>
+    <input class="form-control" type="text" name="phone no" placeholder="080.."><br/>
     <div class="mb-3">
       <label for="validationTextarea">Comment</label>
-      <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Please make your comment here" required></textarea>
+      <textarea name="comment" class="form-control is-invalid" id="validationTextarea" placeholder="Please make your comment here" required></textarea>
       <div class="invalid-feedback">
         Thank you!!..We will get back to you
       </div>
@@ -373,7 +407,7 @@
     </div>
     <div style="float:left;">
       <a class="navbar-brand" href="#" style="color:orange;">
-        <img src="image/emoji1.svg" width="36" height="35" class="d-inline-block align-top" alt="" loading="lazy">
+        <img src="image/emoji1.svg" width="40" height="37" class="d-inline-block align-top" alt="" loading="lazy">
           ricksbond..
       </a>
 
