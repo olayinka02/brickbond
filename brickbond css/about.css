@@ -9,7 +9,7 @@ body{
    div.landingpage{
         height: 150vh;
         width:100%;
-       background-image: url(brickbond/image/office.jpg);
+       background-image: url(../image/office.jpg);
        background-repeat:no-repeat;
        background-size:cover;
        background-position:cover;
@@ -230,7 +230,7 @@ div.Design{
            div.landingpage{
                height: 125vh;
                width:100%;
-               background-image: url(brickbond/image/office.jpg);
+               background-image: url(../image/office.jpg);
                background-repeat:no-repeat;
                background-size:cover;
                background-position:cover;
