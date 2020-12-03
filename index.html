@@ -19,7 +19,14 @@
     
     </style>
 
-    <script type="text/javascript" src="">
+    <script type="text/javascript">
+    Window.addEventListener( 'scroll', function()
+    {
+      var value = Window.scrollY;
+      firstRow.style.top= value * 0.5 +'px';
+      secondRow.style.top= value * 0.5 +'px';
+      
+    })
     </script>
         
 </head>
@@ -63,7 +70,7 @@
       <div id="carouselExampleSlidesOnly" class="carousel slide" style="height:60vh;" data-ride="carousel" >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="row">
+            <div class="row" id="firstRow">
               <div class="col-sm">
                  <img src="image/image1.png" class="build" alt="img" />
               </div>
@@ -80,7 +87,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="row">
+            <div class="row" id="secondRow">
               <div class="col-sm">
                  <img src="image/image2.png" class="build"  alt="img" />
               </div>
