@@ -431,9 +431,9 @@ textarea{
     }
     img.resize{
         margin-left:-6rem;
-        width:45rem; 
+        width:47rem; 
         height:29.3rem;
-        margin-right: 0.5rem;
+        margin-right: 0.2rem;
     }
     
        @keyframes fade{
