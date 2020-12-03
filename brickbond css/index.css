@@ -433,7 +433,7 @@ textarea{
         margin-left:-6rem;
         width:45rem; 
         height:29.3rem;
-        margin-right: 2rem;
+        margin-right: 0.5rem;
     }
     
        @keyframes fade{
