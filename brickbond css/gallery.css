@@ -9,7 +9,7 @@ body{
    div.landingpage{
         height: 100vh;
         width:100%;
-       background-image: url(../image/gallerybg.jpg);
+       background-image: url(/image/gallerybg.jpg);
        background-repeat:no-repeat;
        background-size:cover;
        background-position:cover;
@@ -152,7 +152,7 @@ div.offer{
        div.landingpage{
            height: 110vh;
            width:100%;
-           background-image: url(../image/gallerybg.jpg);
+           background-image: url(/image/gallerybg.jpg);
            background-repeat:no-repeat;
            background-size:cover;
            background-position:cover;
